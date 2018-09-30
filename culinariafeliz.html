@@ -1,28 +1,78 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Culinária Feliz</title>
 </head>
+<style>
+body {
+    background-color: lightgrey;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the side navigation */
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffa500;
+    overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.sidenav p {
+    color: black;
+    padding: 20px;
+    display: table-cell;
+}
+
+.sindena input {display: block; position: static;}
+
+
+</style>
 
 <body>
+
+  	<h1 style="text-align: center; background-color: orange;">Culinária Feliz</h1>
 	
-	<h1>Culinária Feliz</h1>
-	<h2>Categorias</h2>
-	<li>Bolo</li>
-	<li>Torta</li>
-	
-	<h1>Últimas receitas</h1>
-	<h2>Categorias</h2>
-	<li>Torta de maçã</li>(<a href="file:///home/aluno/Documentos/aula%20html/aula-html-master/culinariafeliz2.html">Receita</a>)
-	<li>Bolo de chocoloate</li>
-
-	<form>
-		<h3>Receba nossas receitas</h3>
-			Email: <input type="text" name="Email"> <button>OK</button> 
-			
-	</form>
-
-	<h3>Contato</h3>(<a href="file:///home/aluno/Documentos/aula%20html/aula-html-master/culinariafeliz3.html">Ente em contato</a>)
-
+		<div class="sidenav">
+		<p>Categorias</p>	
+  		<a href="#">Bolo</a>
+  		<a href="#">Torta</a>
+  		<a href="#">Comida Japonesa</a>
+  		<p>Últimas Receitas</p>	
+  		<a href="file:///C:/Users/fagun/Desktop/Rosiley2017/IGOR/CulinariaFeliz-master/culinariafeliz2.html">Torta de Mamão</a>
+  		<a href="#">Bolo de Chocolate</a>
+  		<a href="#">Bolo de Cenoura</a>
+			<p>Receba Nossas Receitas por Email:</p>
+			<input type="text" name="Digite seu Email"> <button>OK</button> 
+			<br><br><a href="file:///home/aluno/Documentos/aula%20html/aula-html-master/culinariafeliz3.html">Entre em Contato</a>
+		</div>
 </body>
 </html>
